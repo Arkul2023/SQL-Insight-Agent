@@ -1,0 +1,9 @@
+streamlit
+langchain-huggingface
+langchain-community
+sqlalchemy
+psycopg2-binary
+pandas
+transformers
+torch
+accelerate
