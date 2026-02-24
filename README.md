@@ -3,9 +3,9 @@ SQL-Insight-Agent is an AI-powered natural language interface for relational dat
 The system translates user questions into safe, executable SQL queries, retrieves results in real time, and returns human-readable responses. 
 It supports both schema-level exploration (tables, columns, structure) and analytical queries (aggregations, rankings, filters), making databases accessible to non-technical users while maintaining accuracy and security.
 
-SQL Insight Agent is an AI-powered Natural Language to SQL (Text-to-SQL) system that enables users to query relational databases using plain English. The system leverages the NumbersStation/nsql-350M model to translate user queries into executable SQL statements and returns structured, human-readable responses.
+Designed and implemented a modular Text-to-SQL agent pipeline that translates natural language queries into executable SQL statements using the NumbersStation/nsql-350M model.
 
-The solution is designed for scalable enterprise environments where non-technical stakeholders need secure, real-time access to structured data.
+Engineered an end-to-end architecture integrating model inference, schema grounding, secure query execution, and structured response generation over a PostgreSQL database.
 
 Currently working on improving the Agent to make it scalable and ready for business use cases.
 
