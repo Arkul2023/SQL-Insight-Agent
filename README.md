@@ -6,27 +6,14 @@ It supports both schema-level exploration (tables, columns, structure) and analy
 SQL Insight Agent is an AI-powered Natural Language to SQL (Text-to-SQL) system that enables users to query relational databases using plain English. The system leverages the NumbersStation/nsql-350M model to translate user queries into executable SQL statements and returns structured, human-readable responses.
 
 The solution is designed for scalable enterprise environments where non-technical stakeholders need secure, real-time access to structured data.
+Currently working on improving the Agent to make it scalable and ready for business use cases.
 
 **Tech Stack
 
-Python
-Hugging Face Transformers
-PostgreSQL
-SQLAlchemy / Psycopg2
-Sttreamlit
-NumbersStation/nsql-350M
+1) Python
+2) Hugging Face Transformers
+3) PostgreSQL
+4) SQLAlchemy / Psycopg2
+5) Streamlit
+6) NumbersStation/nsql-350M
 
-**Enterprise Capabilities
-
-Scalable architecture
-Clear separation of concerns
-Model abstraction layer (can replace with larger LLMs)
-Ready for integration with RAG pipelines
-Suitable for internal BI assistants
-
-**Use Cases
-
-Business Intelligence Assistants
-Internal Data Query Chatbots
-Self-service analytics platforms
-Database exploration for non-technical teams
