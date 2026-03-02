@@ -1,8 +1,8 @@
 from sqlalchemy import create_engine, text
 
 # Replace with your credentials
-DB_USER = "postgres"
-DB_PASSWORD = "newpassword123"
+DB_USER = ""
+DB_PASSWORD = ""
 DB_HOST = "localhost"
 DB_PORT = "5432"
 DB_NAME = "Student"
@@ -26,4 +26,5 @@ if __name__ == "__main__":
     except Exception as e:
         print("Query failed:")
         print(e)
+
 
